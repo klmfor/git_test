@@ -18,7 +18,148 @@
 						"$ref": "AAAAAAF28lUyBvdlsvU="
 					},
 					"name": "ASTO_BM_KGMK_ERD",
-					"defaultDiagram": true
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAF28xjajPdy858=",
+							"_parent": {
+								"$ref": "AAAAAAF28lUyCfdmuA4="
+							},
+							"model": {
+								"$ref": "AAAAAAF28xjaiPdw4dY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF28xjajfdzEdg=",
+									"_parent": {
+										"$ref": "AAAAAAF28xjajPdy858="
+									},
+									"font": "Arial;13;1",
+									"left": 160,
+									"top": 149,
+									"width": 265.2314453125,
+									"height": 13,
+									"text": "bm.Reports"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAF28xjajvd0iKs=",
+									"_parent": {
+										"$ref": "AAAAAAF28xjajPdy858="
+									},
+									"model": {
+										"$ref": "AAAAAAF28xjaiPdw4dY="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF28xlCpfeAJWo=",
+											"_parent": {
+												"$ref": "AAAAAAF28xjajvd0iKs="
+											},
+											"model": {
+												"$ref": "AAAAAAF28xlCNfd9Pv0="
+											},
+											"font": "Arial;13;0",
+											"left": 165,
+											"top": 172,
+											"width": 255.2314453125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF283fO/feI+TM=",
+											"_parent": {
+												"$ref": "AAAAAAF28xjajvd0iKs="
+											},
+											"model": {
+												"$ref": "AAAAAAF283fOdPeFrPw="
+											},
+											"font": "Arial;13;0",
+											"left": 165,
+											"top": 187,
+											"width": 255.2314453125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF283g8fPeP6i0=",
+											"_parent": {
+												"$ref": "AAAAAAF28xjajvd0iKs="
+											},
+											"model": {
+												"$ref": "AAAAAAF283g8HveMY+s="
+											},
+											"font": "Arial;13;0",
+											"left": 165,
+											"top": 202,
+											"width": 255.2314453125,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 160,
+									"top": 167,
+									"width": 265.2314453125,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 160,
+							"top": 144,
+							"width": 265.2314453125,
+							"height": 76,
+							"nameLabel": {
+								"$ref": "AAAAAAF28xjajfdzEdg="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAF28xjajvd0iKs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAF28xjaiPdw4dY=",
+					"_parent": {
+						"$ref": "AAAAAAF28lUyBvdlsvU="
+					},
+					"name": "bm.Reports",
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF28xlCNfd9Pv0=",
+							"_parent": {
+								"$ref": "AAAAAAF28xjaiPdw4dY="
+							},
+							"name": "Report_Id",
+							"type": "INT",
+							"length": 0,
+							"primaryKey": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF283fOdPeFrPw=",
+							"_parent": {
+								"$ref": "AAAAAAF28xjaiPdw4dY="
+							},
+							"name": "ReportName",
+							"type": "NVARCHAR",
+							"length": "50"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF283g8HveMY+s=",
+							"_parent": {
+								"$ref": "AAAAAAF28xjaiPdw4dY="
+							},
+							"name": "ReportDescription",
+							"type": "NVARCHAR",
+							"length": "200"
+						}
+					]
 				}
 			]
 		}
