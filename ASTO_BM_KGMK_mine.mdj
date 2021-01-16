@@ -162,6 +162,24 @@
 					]
 				}
 			]
+		},
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAF3CuGclUuOPFE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ISA-95_Data Model",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAF3CuGclkuPP4U=",
+					"_parent": {
+						"$ref": "AAAAAAF3CuGclUuOPFE="
+					},
+					"name": "ISA-95_ERD"
+				}
+			]
 		}
 	]
 }
